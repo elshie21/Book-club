@@ -1,0 +1,29 @@
+{
+  "name": "project02",
+  "version": "1.0.0",
+  "description": "bookstore application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elshie21/Book-club.git"
+  },
+  "keywords": [
+    "project02"
+  ],
+  "author": "Elshaddai Akindele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elshie21/Book-club/issues"
+  },
+  "homepage": "https://github.com/elshie21/Book-club#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  }
+}
